@@ -1,0 +1,56 @@
+{
+  "avengers": {
+    "nom": "Michiko Mickey Musashi",
+    "current_alias": "Turbo",
+    "afiliacio-i-relacions": {
+      "afiliacions": ["Antigament Avengers Academy","Solitaris","Nous Guerrers"],
+      "estat-civil": "Solter"
+    },
+    "caracteristiques-fisiques": {
+      "genere": "Dona",
+      "alçada": {
+        "@unitat": "cm",
+        "#text": "1.68"
+      },
+      "pes": {
+        "@unitat": "Kg",
+        "#text": "54.43"
+      },
+      "ulls": [
+        "Marro",
+        "Marro"
+      ],
+      "cabells": [
+        "Negre"
+      ]
+    },
+    "origen-i-estat-vital": {
+      "origen": "Humá",
+      "estat-vital": "Viu",
+      "realitat": "Terra-616"
+    },
+    "informacio-personal": {
+      "identitat": "Secreta",
+      "nacionalitats": ["Americana"],
+      "ocupacions": ["Estudiant","Antic aventurer"],
+      "bases-de-operacions": ["Avengers Compound","antiga església de la Santíssima Trinitat","Nova York"]
+    },
+    "creadors-i-aparicions": {
+      "creadors": ["Fabian Nicieza", "Darick Robertson" ],
+      "aparicions": "New Warriors #28 (Octubre, 1992)"
+    },
+    "parafernalia": {
+      "equipament": {
+        "armadures": ["Torpedo Armor"]
+      },
+      "armes": [],
+      "transports": []
+    },
+    "força-i-habilitats": {
+      "força": {},
+      "debilitats": [],
+	  "poders":[],
+      "habilitats": [ "Vol","Generació de camps de força","Explosió energètica","Força millorada","Visor"]
+    }
+  }
+}

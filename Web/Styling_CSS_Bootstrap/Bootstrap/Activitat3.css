@@ -1,0 +1,28 @@
+body { margin: 0; padding: 0; border: 0; }
+.div1{
+    background-color: lime;
+}
+.div2{
+    background-color: cyan;
+}
+
+.div3{
+    background-color: fuchsia;
+}
+.div4{
+    background-color: yellow;
+}
+.div5{
+    background-color: maroon;
+}
+
+span { background-color: rgba(255, 255, 255, .5);
+    border-radius: 50%;
+    display: block;
+    font-size: 48px;
+    height: auto;
+    line-height: 3em;
+    text-align: center;
+    width: 3em;
+
+}

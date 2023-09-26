@@ -1,0 +1,47 @@
+@keyframes titulos {
+    0%   {
+        background-color: rgb(255, 184, 229);
+    }
+    50% {
+        background-color: rgb(255, 156, 225);
+    }
+    100%   {
+        background-color: rgb(255, 184, 229);
+    }
+}
+.tituloanimacion{
+    animation-name: titulos;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+
+.segundaanimacion{
+    color: antiquewhite;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer
+}
+.segundaanimacion span{
+    transition: .8s linear
+}
+.segundaanimacion:hover span:nth-child(1){
+    margin-right: 5px
+}
+.segundaanimacion:hover span:nth-child(1):after{
+    content: "♥";
+}
+.segundaanimacion:hover span:nth-child(2){
+    margin-left: 1px
+}
+.segundaanimacion:hover span{
+    color: pink;
+    text-shadow: 0 0 10px black,
+    0 0 20px pink,
+    0 0 40px pink;
+}
+
+

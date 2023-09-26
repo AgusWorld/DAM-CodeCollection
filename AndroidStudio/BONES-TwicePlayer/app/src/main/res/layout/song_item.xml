@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2C2C2C"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/SongIconImageView"
+        android:layout_centerVertical="true"
+        android:src="@drawable/futurenostalgia"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toEndOf="@id/SongIconImageView">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Don't Start Now"
+            android:id="@+id/SontTitleTextView"
+            android:layout_toEndOf="@id/SongIconImageView"
+            android:layout_marginLeft="10dp"
+            android:maxLines="1"
+            android:textSize="21dp"
+            android:ellipsize="end"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dua Lipa"
+            android:id="@+id/SontArtistTextView"
+            android:layout_toEndOf="@id/SongIconImageView"
+            android:layout_marginLeft="10dp"
+
+            android:maxLines="1"
+            android:textSize="11dp"
+            android:ellipsize="end"
+            android:textColor="#919191"/>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

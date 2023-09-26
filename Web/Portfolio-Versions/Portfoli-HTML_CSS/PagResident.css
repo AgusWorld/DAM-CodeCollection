@@ -1,0 +1,153 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+body{
+    background: url("residentwp.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+#divcontainer{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto 5fr;
+    grid-template-rows: 1fr auto auto 1fr;
+    grid-template-areas:
+    "arriba arriba"
+    "colabs derechamid"
+    ". derechamid"/*el punto para dejarlo vacio*/
+    "abajo abajo";
+}
+
+#colabs,#derechamid{
+    padding: 2em;
+    margin: 1em;
+}
+#colabs{
+    grid-area: colabs;
+    padding: 5%;
+    margin-right: 5%;
+    margin-left: auto;
+    width: 35%;
+    text-align: center;
+    align-content: center;
+    border: #af0303 solid 0.4em;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 66px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+.linksfotos{
+    width: 100%;
+    margin-bottom: 0%;
+    margin-top: 10%;
+    margin-right: 0%;
+    margin-left: 0%;
+}
+#collabsfoto{
+    width: 100%;
+    object-fit: contain;
+}
+.fotoscollabs{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    border: #af0303 solid 0.15em;
+}
+#derechamid{
+    grid-area: derechamid;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 1em;
+    margin-right: 10%;
+    box-shadow: 0 4px 66px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    word-wrap: break-word;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.5em;
+    text-align: justify;
+    height:auto;
+}
+
+
+
+#arriba{
+    grid-area: arriba;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: black;
+}
+#abajo{
+    grid-area: abajo;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    color: #1a1a18;
+    text-align: center;
+    padding-top: 2em;
+    background-color: rgba(110, 2, 2, 0.52);
+}
+#arriba,#abajo{
+
+    width: 100%;
+    margin-right: 0%;
+    margin-left: 0%;
+}
+.socialnetimg{
+    width: 3%;
+    max-height: 64px;
+    object-fit: contain;
+}
+#textcopyr{
+    font-weight: bold;
+}
+#pegi{
+    max-height: 64px;
+    object-fit: contain;
+}
+h1{
+    font-size: 2em;
+    color: #af0303;
+    margin-bottom: 0;
+    animation-name: titulos;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    height: auto;
+    table-layout: fixed;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 3px;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(228, 171, 190, 0.3);
+}
+tr:nth-child(odd) {
+    background-color: rgb(228, 171, 190, 0.15);
+}
+
+@keyframes titulos {
+    0%   {background-color: white;}
+    100% {background-color: rgba(89, 0, 0, 0.14);}
+}
+@media only screen and (max-width: 700px) {
+    #divcontainer{display: flex;flex-wrap: wrap}
+    #colabs{margin-left: 25%}
+}

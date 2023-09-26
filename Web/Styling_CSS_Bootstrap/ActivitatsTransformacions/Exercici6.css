@@ -1,0 +1,55 @@
+#rellotge {
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    border: 10px solid black;
+    border-radius: 50%;
+    position: relative;
+    animation: linear infinite;
+}
+
+#segons {
+    width: 4px;
+    height: 180px;
+    background-color: gray;
+    margin-left: 198px;
+    margin-top: 20px;
+    position: absolute;
+    animation-duration: 60s;
+    animation-name: rotate;
+    transform-origin: bottom;
+}
+
+#minuts {
+    width: 6px;
+    height: 140px;
+    background-color: darkslategray;
+    margin-left: 197px;
+    margin-top: 60px;
+    position: absolute;
+    animation-duration: 3600s;
+    animation-name: rotate;
+    transform-origin: bottom;
+}
+
+#hores {
+    width: 8px;
+    height: 120px;
+    background-color: black;
+    margin-left: 196px;
+    margin-top: 80px;
+    position: absolute;
+    animation-duration: 86400;
+    animation-name: rotate;
+    transform-origin: bottom;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,20 @@
+$('button[value="+"]').click(function(){
+    n1=parseInt($("#op1").val())
+    n2=parseInt($("#op2").val())
+    $("span").text(n1+n2)
+});
+$('button[value="-"]').click(function(){
+    n1=parseInt($("#op1").val())
+    n2=parseInt($("#op2").val())
+    $("span").text(n1-n2)
+});
+$('button[value="*"]').click(function(){
+    n1=parseInt($("#op1").val())
+    n2=parseInt($("#op2").val())
+    $("span").text(n1*n2)
+});
+$('button[value="/"]').click(function(){
+    n1=parseInt($("#op1").val())
+    n2=parseInt($("#op2").val())
+    $("span").text(n1/n2)
+});

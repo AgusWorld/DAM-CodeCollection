@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/bootstrap-utilities.css">
+    <link rel="stylesheet" href="PagMain.css">
+    <link rel="icon" href="houselogo.png">
+    <style>
+        .highlight {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body class="bg-dark">
+<div class="container-fluid main">
+    <!-- ESTE ES EL DIV DEL HEADER-->
+    <div class="row ">
+
+
+        <nav class="navbar justify-content-center bg-primary">
+            <h1 class="navbar-brand fw-bold p-2 text-white">PUNTUACIONS</h1>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-info">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-center" aria-current="page" href="PagMain.html">HOME</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="PagBlackpink.html">BLACKPINK</a>
+                        </li>
+                        <li class="nav-item text-center ">
+                            <a class="nav-link" href="PagGodzilla.html">GODZILLA</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="PagMetro.html">METRO E.</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="PagResident.html">R.E.2</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="Puntuacions.html">Puntuacions</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" href="PartidaP.html">PartidaP</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                T.Fuente
+                            </a>
+                            <ul class="dropdown-menu p-1" aria-labelledby="navbarDropdown" id="dropselsize">
+                                <li><input type="radio" name="selectorsize" >Pequeña</li>
+                                <li><input type="radio" name="selectorsize"checked="checked">Mediana</li>
+                                <li><input type="radio" name="selectorsize">Grande</li>
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Tema
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" id="dropseltheme">
+                                <li><a class="dropdown-item" href="#">Fosc</a></li>
+                                <li><a class="dropdown-item" href="#">Light</a></li>
+                                <li><a class="dropdown-item" href="#">Negre</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <span class="nav-link" href="#" id="reloj">CARGANDO HORA</span>
+                        </li>
+
+
+
+                    </ul>
+
+                </div><form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Una palabra" aria-label="Search" id="palabrabuscada">
+                <button class="btn btn-outline-success" type="submit"  onclick="replaceText();">Buscar</button>
+            </form>
+            </div>
+        </nav>
+
+    </div>
+
+    <!-- ESTE ES EL DIV DEL CUERPO-->
+    <div class="row container-fluid mt-5 w-100">
+
+        <div class="col-12 col-sm-3 mt-3 mb-3">
+            <div class="card bg-primary w-100">
+                <div class="card-body text-center" id="columnaaa">
+                    <a class="nav-link text-white " id="loginopenbutton"  data-bs-toggle="modal" data-bs-target="#formlogin">
+                        LOGIN</a>
+                    <a class="nav-link text-white " id="registeropenbutton"  data-bs-toggle="modal" data-bs-target="#formregister">REGISTER</a>
+                    <a class="nav-link bg-danger text-white modal fade" id="logoutbutton"  data-bs-toggle="modal">LOG OUT</a>
+                    <a class="nav-link text-white" HREF="https://store.steampowered.com/app/578080/PUBG_BATTLEGROUNDS/">DESCARGAR PUBG</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-9 mt-3 mb-auto">
+            <div class="card bg-info w-100">
+
+
+
+
+                <div class="card-header bg-primary">
+                    <h2 class="text-white">PUNTUACIONES</h2>
+                    <input type="text" placeholder="Enter nom@nom" name="nom" id="nombrePuntuaciones"><br>
+                    <button type="button" id="buttonPuntuaciones">Consultar</button>
+                    <button type="button" id="buttonPuntuacionesVaciar">Vaciar tabla</button>
+                </div>
+                <div class="card-body content" >
+                    <p> Pulsar el boton de consulta sin indicar ningun nombre en el input para ver todas las puntuaciones.
+                        Las puntuaciones se muestran en el siguiente orden:
+                        <br>1.Puntos descendientes
+                        <br>2.Alias ascendente
+                        <br>3.Numero de partida ascendiente
+
+                        <br><b>En caso de que se indique el nombre (no alias) de un jugador en el input se añadira unicamente el de este si es que existe.</b>
+                    </p>
+
+
+
+                    <table class="table table-bordered table-striped">
+                        <thead class="thead-light">
+                        <tr>
+                            <th scope="col">IdPartida</th>
+                            <th scope="col">Alias</th>
+                            <th scope="col">Puntuacion</th>
+
+                        </tr>
+                        </thead>
+                        <tbody class="bg-white" id="cuerpodetabla">
+
+                        </tbody>
+                    </table>
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ESTE ES EL DIV DEL FOOTER-->
+    <div class="row bg-primary p-2 mt-5">
+        <footer class="text-center">
+            <img src="esrb.png">
+            <p class="text-center fw-bold fs-5 text-white-50">© 2021 AGUSTIN RAMOS<BR>
+                PAGINA HECHA POR AGUSTIN RAMOS</p>
+        </footer>
+    </div>
+
+    <!-- ESTE ES EL MODAL DE LAS COOKIES-->
+    <div class="alert alert-info alert-dismissible fade show fixed-bottom lascookies" role="alert">
+        <strong>Hey hola!!</strong> En tancar l’alerta acceptes la política de privacitat i les galetes.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+</div>
+
+
+<!-- ESTE ES EL MODAL DEL LOGIN -->
+<div class="modal fade" id="formlogin" tabindex="-1" aria-labelledby="formlogin" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content bg-light">
+            <div class="modal-header">
+                <h5 class="modal-title">ENTRAR A TU CUENTA</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Nom</label>
+                        <input type="email" class="form-control" id="loginemail" name="email" placeholder="email@email.com" />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        <input type="password" class="form-control" id="loginpassword" name="password" placeholder="Contraseña" />
+                    </div>
+                    <div class="modal-footer d-block">
+                        <span id="loginmessage"></span>
+                        <button type="submit" class="btn btn-dark float-end" id="loginbutton">ENTRAR</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ESTE ES EL MODAL DEL REGISTER -->
+<div class="modal fade" id="formregister" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content bg-light">
+            <div class="modal-header">
+                <h5 class="modal-title">REGISTRARSE</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Alias</label>
+                        <input type="text" class="form-control" id="registeralias" name="alias" placeholder="Introduce Alias" />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Nom</label>
+                        <input type="email" class="form-control" id="registeremail" name="email" placeholder="email@ies-sabadell.cat" />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        <input type="password" class="form-control" id="registerpassword" name="password" placeholder="max. 20 char" />
+                    </div>
+                    <div class="modal-footer d-block">
+                        <span id="registermessage"></span>
+                        <button type="submit" class="btn btn-dark float-end" id="registerbutton">REGISTRARSE</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="Jquery/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="PagMain.js"></script>
+<script src="loginPF.js"></script>
+<script src="registerPF.js"></script>
+<script src="ConsultarPuntuacions.js"></script>
+</body>
+</html>

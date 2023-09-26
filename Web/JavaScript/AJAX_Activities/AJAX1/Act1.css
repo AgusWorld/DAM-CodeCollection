@@ -1,0 +1,21 @@
+CSS:
+* {
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+    float: left;
+    width: 50%;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+}
+
+th {
+    background-color: blueviolet;
+    color: white;
+}

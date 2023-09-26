@@ -1,0 +1,14 @@
+#formulario{
+    border: black solid 3px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    background: linear-gradient(rgba(255,0,0,1), #ffd600);
+    color: white;
+    text-decoration: underline;
+
+}
+input,select{
+    background: rgb(231, 231, 231);
+    border-radius: 5px;
+}

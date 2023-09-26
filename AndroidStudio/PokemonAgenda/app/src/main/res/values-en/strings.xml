@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setnom">Contact Name</string>
+    <string name="setnumTelefon">Phone Number</string>
+    <string name="setGenere">Gender</string>
+    <string name="setEquip">Favorite Team</string>
+    <string name="addContact">New Contact</string>
+    <string name="app_name">Pokemon Agenda</string>
+    <string name="modeFosc">Dark Mode</string>
+    <string name="btnCancelar">CANCEL❌</string>
+    <string name="btnAfegir">ADD CONTACT✔️</string>
+    <string name="NouContacte">NEW CONTACT➕</string>
+    <string name="mostrarPreferencies">PREFERENCES👀</string>
+    <string name="editarPreferencies">PREFERENCES🛠</string>
+    <string name="descModeFosc">Activates Dark Mode🌚.</string>
+    <string name="Tema">Theme</string>
+    <string name="DeleteAll">DROP ALL❌</string>
+    <string name="LlistaContactes">Contact List</string>
+</resources>

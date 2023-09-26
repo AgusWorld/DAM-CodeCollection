@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Activitat Login</title>
+    <link rel="stylesheet" href="Activitat7.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="shortcut icon" type="image/x-icon" href="https://cdn.vox-cdn.com/thumbor/tsJ4hwlRAljNXvkj3awrvN7Xik0=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19702392/netflix_n_icon_logo_3840.jpg" />
+</head>
+<body class="d-flex align-content-center justify-content-center align-items-center">
+<div class="container d-flex flex-column align-content-center w-50 h-75" >
+    <div class="d-flex justify-content-center bg-dark">
+        <img class="w-50 p-2" src="logowapo.png">
+    </div>
+
+    <div id="dades" class="w-100 bg-light">
+        <form action=”mailto:sramosm@ies-sabadell.cat” method="post" class="p-4 mt-3">
+
+
+            <div class="form-group1">
+                <label for="email" class="font-weight-bold">Correu Electronic:</label>
+                <input type="email" class="form-control border border-dark w-100 d-inline-block p-2 mb-4" id="email" name="email" placeholder="CorreuE">
+            </div>
+
+
+
+            <div class="form-group2">
+                <label for="pwd" class="font-weight-bold">Contrasenya:</label>
+                <input type="password" class="form-control border border-dark w-100 d-inline-block p-2 mb-4" id="pwd" name="password" placeholder="Contrasenya">
+            </div>
+
+
+            <label for="sala" id="sala"><p class="font-weight-bold">Sala</p></label>
+            <input class="form-control border border-dark w-100 d-inline-block p-2 mb-4" type="number" placeholder="Num de Sala" name="sala" required>
+
+            <input type="submit" class="btn btn-danger w-100 " value="Login"><br>
+
+            <div class="form-check">
+            <label class="form-check-label" for="recuerdame">
+                <input type="checkbox" class="form-check-input" id="recuerdame" name="recordam" checked>Recorda'm
+            </label>
+            </div>
+
+
+        </form>
+    </div>
+</div>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

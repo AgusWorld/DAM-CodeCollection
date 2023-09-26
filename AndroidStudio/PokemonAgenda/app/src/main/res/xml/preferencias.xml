@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+ <PreferenceCategory android:title="@string/Tema" >
+<CheckBoxPreference
+   android:key="checkboxPref"
+   android:title="@string/modeFosc"
+   android:summary="@string/descModeFosc"
+   android:defaultValue="false"/>
+<EditTextPreference
+   android:key="editTextPref"
+   android:title="Name"
+   android:summary="Alex"
+   android:defaultValue="Nothing"
+    />
+ </PreferenceCategory>
+ <PreferenceCategory android:title="Second Category">
+  <ListPreference
+   android:key="listPref"
+   android:title="S/M/L"
+   android:summary="🔎"
+   android:entries="@array/Size"
+   android:entryValues="@array/Size" />
+ </PreferenceCategory>
+</PreferenceScreen>

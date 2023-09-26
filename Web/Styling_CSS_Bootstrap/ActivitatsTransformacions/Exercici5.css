@@ -1,0 +1,19 @@
+div {
+    width: 100px;
+    height: 100px;
+    background: greenyellow;
+    position: relative;
+    animation-name: sin;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes  sin{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(100px);
+    }
+}

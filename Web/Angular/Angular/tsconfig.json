@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+  "module": "commonjs",
+  "target": "es5",
+  "sourceMap": true
+},
+  "exclude": [
+  "node_modules"
+],
+  "files":["Act1.ts", "Act2.ts","Act3.ts","Act4.ts","Act5.ts","Act6.ts","Act7.ts"],
+  "include": ["src/scripts/**/*"]
+}

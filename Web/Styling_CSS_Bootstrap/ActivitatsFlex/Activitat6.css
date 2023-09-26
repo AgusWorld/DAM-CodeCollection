@@ -1,0 +1,15 @@
+#a{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 25%;
+    margin-left: 25%;
+    border: fuchsia solid;
+    border-radius: 15px;
+    background-color: darkgreen;
+    color: white;
+    padding-right: 4em;
+    padding-left: 4em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    text-align: justify;
+}

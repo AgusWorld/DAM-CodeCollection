@@ -1,0 +1,47 @@
+<!ELEMENT marvel (Avengers)>
+<!ELEMENT Avengers (nom, current_alias, afiliacio-i-relacions, caracteristiques-fisiques, origen-i-estat-vital, informacio-personal, creadors-i-aparicions, parafernalia, forca-i-habilitats)>
+<!ATTLIST Avengers
+          id CDATA #REQUIRED>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT current_alias (#PCDATA)>
+<!ELEMENT afiliacio-i-relacions (afiliacions?, estat-civil?)>
+<!ELEMENT afiliacions (afiliacio+)>
+<!ELEMENT afiliacio (#PCDATA)>
+<!ELEMENT estat-civil (#PCDATA)>
+<!ELEMENT caracteristiques-fisiques (genere?, alcada?, pes?, ulls?, cabells?)>
+<!ELEMENT genere (#PCDATA)>
+<!ELEMENT alcada (#PCDATA)>
+<!ATTLIST alcada
+          unitat CDATA #REQUIRED>
+<!ELEMENT pes (#PCDATA)>
+<!ATTLIST pes
+          unitat CDATA #REQUIRED>
+<!ELEMENT ulls (#PCDATA)>
+<!ELEMENT cabells (#PCDATA)>
+<!ELEMENT origen-i-estat-vital (origen, estat-vital, realitat)>
+<!ELEMENT origen (#PCDATA)>
+<!ELEMENT estat-vital (#PCDATA)>
+<!ELEMENT realitat (#PCDATA)>
+<!ELEMENT informacio-personal (identitat?, nacionalitat, ocupacions?, bases-de-operacions?)>
+<!ELEMENT identitat (#PCDATA)>
+<!ELEMENT nacionalitat (#PCDATA)>
+<!ELEMENT ocupacions (ocupacio+)>
+<!ELEMENT ocupacio (#PCDATA)>
+<!ELEMENT bases-de-operacions (base+)>
+<!ELEMENT base (#PCDATA)>
+<!ELEMENT creadors-i-aparicions (creadors, aparicio)>
+<!ELEMENT creadors (creador+)>
+<!ELEMENT creador (#PCDATA)>
+<!ELEMENT aparicio (#PCDATA)>
+<!ELEMENT parafernalia (equipament?)>
+<!ELEMENT equipament (equipacio?, armes*, transport*)>
+<!ELEMENT equipacio (armadura*)>
+<!ELEMENT armadura (#PCDATA)>
+<!ELEMENT armes (#PCDATA)>
+<!ELEMENT transport (#PCDATA)>
+<!ELEMENT forca-i-habilitats (forca?, debilitats?, habilitats?)>
+<!ELEMENT forca (#PCDATA)>
+<!ELEMENT debilitats (debilitat+)>
+<!ELEMENT debilitat (#PCDATA)>
+<!ELEMENT habilitats (habilitat+)>
+<!ELEMENT habilitat (#PCDATA)>

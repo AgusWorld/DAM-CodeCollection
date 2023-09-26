@@ -1,0 +1,13 @@
+F:\ESTEEE\KingOfTokioCSharp\bin\Debug\KingOfTokioCSharp.exe.config
+F:\ESTEEE\KingOfTokioCSharp\bin\Debug\KingOfTokioCSharp.exe
+F:\ESTEEE\KingOfTokioCSharp\bin\Debug\KingOfTokioCSharp.pdb
+F:\ESTEEE\KingOfTokioCSharp\bin\Debug\EntityFramework.dll
+F:\ESTEEE\KingOfTokioCSharp\bin\Debug\EntityFramework.SqlServer.dll
+F:\ESTEEE\KingOfTokioCSharp\bin\Debug\EntityFramework.xml
+F:\ESTEEE\KingOfTokioCSharp\bin\Debug\EntityFramework.SqlServer.xml
+F:\ESTEEE\KingOfTokioCSharp\obj\Debug\KingOfTokioCSharp.csproj.AssemblyReference.cache
+F:\ESTEEE\KingOfTokioCSharp\obj\Debug\KingOfTokioCSharp.csproj.SuggestedBindingRedirects.cache
+F:\ESTEEE\KingOfTokioCSharp\obj\Debug\KingOfTokioCSharp.csproj.CoreCompileInputs.cache
+F:\ESTEEE\KingOfTokioCSharp\obj\Debug\KingOfTokioCSharp.csproj.CopyComplete
+F:\ESTEEE\KingOfTokioCSharp\obj\Debug\KingOfTokioCSharp.exe
+F:\ESTEEE\KingOfTokioCSharp\obj\Debug\KingOfTokioCSharp.pdb

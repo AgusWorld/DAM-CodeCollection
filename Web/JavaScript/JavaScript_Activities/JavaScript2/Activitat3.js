@@ -1,0 +1,6 @@
+let nom=prompt("NOM?")
+let descompte=prompt("DESCOMPTE?")
+let joc=prompt("JOC?")
+document.getElementById("nom").innerText=document.getElementById("nom").innerText.replace("XXXX",nom)
+document.getElementById("descompte").innerText=document.getElementById("descompte").innerText.replace("XX",descompte)
+document.getElementById("joc").innerText=document.getElementById("joc").innerText.replace("XXXX",joc)

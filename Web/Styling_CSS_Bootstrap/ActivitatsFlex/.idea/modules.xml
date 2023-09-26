@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../ActivitatGrid2/.idea/ActivitatGrid2.iml" filepath="$PROJECT_DIR$/../ActivitatGrid2/.idea/ActivitatGrid2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ActivitatLogin/.idea/ActivitatLogin.iml" filepath="$PROJECT_DIR$/../ActivitatLogin/.idea/ActivitatLogin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ActivitatsFlex.iml" filepath="$PROJECT_DIR$/.idea/ActivitatsFlex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../ActivitatsTransformacions/.idea/ActivitatsTransformacions.iml" filepath="$PROJECT_DIR$/../../ActivitatsTransformacions/.idea/ActivitatsTransformacions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Portfoli/.idea/Portfoli.iml" filepath="$PROJECT_DIR$/../Portfoli/.idea/Portfoli.iml" />
+    </modules>
+  </component>
+</project>

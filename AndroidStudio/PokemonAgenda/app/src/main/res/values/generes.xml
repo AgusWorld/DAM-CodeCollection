@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!-- <string name="genere_H">Home</string>
+    <string name="genere_D">Dona</string>
+    <string name="genere_A">Altre</string>-->
+
+    <string-array name="generes">
+        <item >Home</item>
+        <item >Dona</item>
+        <item >Altre</item>
+    </string-array>
+
+    <string-array name="equips">
+        <item >Valor</item>
+        <item >Instinct</item>
+        <item >Mystic</item>
+    </string-array>
+
+    <string-array name="Size">
+        <item >S</item>
+        <item >M</item>
+        <item >L</item>
+    </string-array>
+</resources>

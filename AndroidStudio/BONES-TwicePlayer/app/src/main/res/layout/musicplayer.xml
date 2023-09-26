@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C2C2C"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/album_name"
+        android:text="Future Nostalgia"
+        android:singleLine="true"
+        android:gravity="center"
+        android:ellipsize="marquee"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:paddingHorizontal="40dp"
+        android:paddingBottom="66dp"
+        android:layout_above="@id/SongCoverImageView"
+        />
+    <ImageView
+        android:layout_width="340dp"
+        android:layout_height="340dp"
+        android:id="@+id/SongCoverImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@id/songNameTextView"
+        android:src="@drawable/futurenostalgia"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/songNameTextView"
+        android:text="Don't Start Now"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_marginBottom="0dp"
+        android:textStyle="bold"
+        android:paddingHorizontal="40dp"
+        android:paddingTop="5dp"
+        android:layout_above="@id/song_artist"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/song_artist"
+        android:text="Dua Lipa"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:textColor="#919191"
+        android:textSize="15dp"
+        android:layout_marginBottom="0dp"
+        android:paddingHorizontal="40dp"
+        android:paddingBottom="15dp"
+        android:layout_above="@id/controls"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/controls"
+        android:paddingBottom="40dp"
+        android:paddingHorizontal="30dp">
+
+        <SeekBar
+            android:id="@+id/PlaybackBarSeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:thumbTint="#FFFFFF"
+            android:progressTint="@color/white"
+            android:backgroundTint="@color/white" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ElapsedTimeTextView"
+            android:layout_below="@id/PlaybackBarSeekBar"
+            android:text="0:00"
+            android:layout_alignParentStart="true"
+            android:paddingHorizontal="15dp"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/PlaybackBarSeekBar"
+            android:id="@+id/SongTotalTimeTextView"
+            android:paddingHorizontal="15dp"
+            android:text="0:00"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/SongTotalTimeTextView"
+            android:paddingHorizontal="40dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_skip_previous_24"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/PreviousSongImageView"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_skip_next_24"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/SkipSongImageView"/>
+
+            <ImageView
+                android:layout_width="94dp"
+                android:layout_height="94dp"
+                android:src="@drawable/ic_baseline_pause_circle_24"
+                android:layout_centerInParent="true"
+                android:id="@+id/PlayAndPauseImageView"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+.quadre {
+    color: white;
+    float: left;
+    margin-right: 2%;
+    font-size: 20px
+}
+
+.animacio {
+    background-color: #CC3333;
+    height: 40px;
+    width: 100%;
+    overflow: hidden;
+
+}
+@keyframes anim {
+    0% {transform: translateX(0%)}
+    50% {transform: translateX(400%)}
+    100% {transform: translateX(0%)}
+}
+.moviment {
+    background-color: #FFCC99;
+    background-image: -webkit-linear-gradient(    left, rgba( 0,0,0,0.9 ) 25%, rgba( 0,0,0,0.1 ) 50%, rgba( 0,0,0,0.9 ) 75%);
+    background-image:    -moz-linear-gradient(    left, rgba( 0,0,0,0.9 ) 25%, rgba( 0,0,0,0.1 ) 50%, rgba( 0,0,0,0.9 ) 75%);
+    background-image:      -o-linear-gradient(    left, rgba( 0,0,0,0.9 ) 25%, rgba( 0,0,0,0.1 ) 50%, rgba( 0,0,0,0.9 ) 75%);
+    background-image:         linear-gradient(to right, rgba( 0,0,0,0.9 ) 25%, rgba( 0,0,0,0.1 ) 50%, rgba( 0,0,0,0.9 ) 75%);
+    color: white;
+    height: 100%;
+    width: 20%;
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}

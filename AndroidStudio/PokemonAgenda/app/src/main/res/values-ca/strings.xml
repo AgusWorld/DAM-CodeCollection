@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setnom">Nom del Contacte</string>
+    <string name="setnumTelefon">Número de Telefon</string>
+    <string name="setGenere">Genere</string>
+    <string name="setEquip">Equip Favorit</string>
+
+    <string name="addContact">Nou Contacte</string>
+    <string name="app_name">Agenda Pokemon</string>
+    <string name="modeFosc">Mode Fosc</string>
+    <string name="btnCancelar">CANCELAR❌</string>
+    <string name="btnAfegir">AFEGIR✔️</string>
+    <string name="NouContacte">NOU CONTACTE➕</string>
+    <string name="mostrarPreferencies">PREFERENCIES👀</string>
+    <string name="editarPreferencies">PREFERENCIES🛠</string>
+    <string name="descModeFosc">Activa el mode fosc🌚.</string>
+    <string name="Tema">Tema</string>
+    <string name="DeleteAll">ESBORRAR TOT❌</string>
+    <string name="LlistaContactes">Llista de Contactes</string>
+</resources>

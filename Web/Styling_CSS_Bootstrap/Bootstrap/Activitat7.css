@@ -1,0 +1,7 @@
+html,body,.viewport{height: 100%;width: 100%;}
+body{
+    background-image: url("http://isquad.tv/wp-content/uploads/2018/08/Netflix-Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

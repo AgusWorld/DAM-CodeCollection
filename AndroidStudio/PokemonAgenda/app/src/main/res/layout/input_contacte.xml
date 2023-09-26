@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/SCREEN">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/SCREEN">
+
+        <TextView
+            android:id="@+id/inputNomT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/setnom"
+            style="@style/TEXT"/>
+
+        <EditText
+            android:id="@+id/inputNomI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text="Alex" />
+
+        <TextView
+            android:id="@+id/inputPhoneT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/setnumTelefon" />
+
+        <EditText
+            android:id="@+id/inputPhoneI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="123"
+            android:inputType="phone"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/inputGenderT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/setGenere" />
+
+        <Spinner
+            android:id="@+id/inputGenderI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="Genere a Escollir"
+            android:entries="@array/generes"
+            android:minHeight="48dp"
+            android:spinnerMode="dialog" />
+
+        <TextView
+            android:id="@+id/inputTeamT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/setEquip" />
+
+        <Spinner
+            android:id="@+id/inputTeamI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="Equip a Escollir"
+            android:entries="@array/equips"
+            android:minHeight="48dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/BTNinputCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="#9C0808"
+                android:text="@string/btnCancelar"
+                style="@style/TEXT"/>
+
+            <Button
+                android:id="@+id/BTNinputAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:backgroundTint="#95C632"
+                android:text="@string/btnAfegir"
+                style="@style/TEXT"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

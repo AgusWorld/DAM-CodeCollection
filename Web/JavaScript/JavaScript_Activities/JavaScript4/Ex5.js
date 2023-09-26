@@ -1,0 +1,1 @@
+document.body.innerHTML+=`Hola, avui és ${new Date().getDate()} del mes ${(new Date().getMonth()+1)} de l'any ${new Date().getFullYear()}`;

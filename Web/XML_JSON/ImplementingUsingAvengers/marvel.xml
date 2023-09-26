@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE marvel SYSTEM "file:///E:/Llenguatge%20marques/marvel.dtd">
+<marvel>
+  <Avengers id="Michiko_Musashi">
+    <nom>Michiko "Mickey" Musashi</nom>
+    <current_alias>Turbo</current_alias>
+  
+    <afiliacio-i-relacions>
+      <afiliacions>
+        <afiliacio>Antigament Avengers Academy</afiliacio>
+        <afiliacio>Solitaris</afiliacio>
+        <afiliacio>Nous Guerrers</afiliacio>
+      </afiliacions>
+      <estat-civil>Solter</estat-civil>
+    </afiliacio-i-relacions>
+ 
+    <caracteristiques-fisiques>
+      <genere>Dona</genere>
+      <alcada unitat="cm">1.68</alcada>
+      <pes unitat="Kg">54.43</pes>
+      <ulls>Marrons</ulls>
+      <cabells>Negre</cabells>
+    </caracteristiques-fisiques>
+    
+    <origen-i-estat-vital>
+      <origen>Humá</origen>
+      <estat-vital>Viu</estat-vital>
+      <realitat>Terra-616</realitat>
+    </origen-i-estat-vital>
+    
+    <informacio-personal>
+      <identitat>Secreta</identitat>
+      <nacionalitat>Americana</nacionalitat>
+      <ocupacions>
+        <ocupacio>Estudiant</ocupacio>
+        <ocupacio>Antic aventurer</ocupacio>
+      </ocupacions>
+      <bases-de-operacions>
+        <base>Avengers Compound</base>
+        <base>antiga església de la Santíssima Trinitat</base>
+        <base>Nova York</base>
+      </bases-de-operacions>
+    </informacio-personal>
+    
+    <creadors-i-aparicions>
+      <creadors>
+        <creador>Fabian Nicieza</creador>
+        <creador>Darick Robertson</creador>
+      </creadors>
+      <aparicio>New Warriors #28 (Octubre, 1992)</aparicio>
+    </creadors-i-aparicions>
+    
+    <parafernalia>
+      <equipament>
+        <equipacio>
+          <armadura>Torepedo Armor</armadura>
+        </equipacio>
+        <armes >
+        </armes>
+        <transport>
+        </transport>
+      </equipament>
+    </parafernalia>
+    
+    <forca-i-habilitats>
+      <forca></forca>
+      <debilitats>
+        <debilitat></debilitat>
+      </debilitats>
+      <habilitats>
+        <habilitat> Vol</habilitat>
+        <habilitat>Generació de camps de força</habilitat>
+        <habilitat>Explosió energètica</habilitat>
+        <habilitat>Força millorada</habilitat>
+        <habilitat>Visor</habilitat>
+      </habilitats>
+    </forca-i-habilitats>
+    
+  </Avengers>
+</marvel>

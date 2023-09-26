@@ -1,0 +1,60 @@
+body {
+    font-family:sans-serif;
+    font-size:15px;
+}
+
+h1,h2 {
+    text-align:center;
+}
+
+h2, em {
+
+}
+
+h1 {
+    width:10em;
+    margin:0;
+    padding:0;
+    background-color:#000;
+    color:#FFF;
+    font-size:300%;
+}
+
+h2 {
+    position:relative;
+    bottom:-10em;
+    width:40%;
+    margin:auto;
+    background-color: #FFCC99;
+    transition: transform 3s;
+}
+
+
+h2:hover {
+    background-color: fuchsia;
+    color: #000;
+    text-shadow: #707 0.2em 0.2em 0.3em;
+    border-radius: 1em;
+    transform: rotate(720deg) scale(2);
+}
+em {
+    color: navy;
+}
+
+h2:hover em {
+    color: darkorange;
+}
+/*
+h2:hover {
+    background-color: fuchsia;
+    color: #000;
+    text-shadow: #707 0.2em 0.2em 0.3em;
+    border-radius: 1em;
+    animation-name: example;
+    animation-duration: 3s;
+}
+@keyframes example{
+    0% {transform: rotate(0deg);}
+    100% {transform:rotate(720deg) scale(2);}
+}
+ */

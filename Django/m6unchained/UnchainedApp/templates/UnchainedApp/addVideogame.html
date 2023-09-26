@@ -1,0 +1,15 @@
+{% extends 'UnchainedApp/base.html' %}
+
+{% block title %} Create new Game {% endblock %}
+
+{% block content %}
+
+Create Game Form
+<form method="post" action="/">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type="submit" name="save">Create Game</button>
+
+</form>
+
+{% endblock %}

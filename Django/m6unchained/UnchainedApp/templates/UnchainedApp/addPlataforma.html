@@ -1,0 +1,15 @@
+{% extends 'UnchainedApp/base.html' %}
+
+{% block title %} Create new Platform {% endblock %}
+
+{% block content %}
+
+Create Platform Form
+<form method="post" action="/">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type="submit" name="save">Create Platform</button>
+
+</form>
+
+{% endblock %}
