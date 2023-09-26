@@ -1,0 +1,47 @@
+<h3>COMPONENT: ACTIVITAT 2</h3>
+
+<div class="container">
+  <div class="row calculadoraA justify-content-center">
+    Operació
+    <input type="text" id="operacio" readonly value={{operacio}}>
+  </div>
+  <div class="row calculadoraA justify-content-center">
+    Nombre
+    <input type="text" id="nombre" value={{nombre}} readonly>
+  </div>
+  <div class="row calculadoraA justify-content-center">
+    Resultat
+    <input type="text" id="resultat" value={{resultat}} readonly>
+  </div>
+  <div class="row">
+    <button class="calculadora col-3 " (click)="onclick($event,1)">1</button>
+    <button class="calculadora  col-3 " (click)="onclick($event,2)">2</button>
+    <button class="calculadora  col-3 " (click)="onclick($event,3)">3</button>
+    <button class="calculadoraN  col-3 " (click)="onclick2($event,1)">/</button>
+  </div>
+  <div class="row">
+    <button class="calculadora col-3 " (click)="onclick($event,4)">4</button>
+    <button class="calculadora col-3 " (click)="onclick($event,5)">5</button>
+    <button class="calculadora col-3 " (click)="onclick($event,6)">6</button>
+    <button class="calculadoraN col-3 " (click)="onclick2($event,2)">*</button>
+  </div>
+  <div class="row">
+    <button class="calculadora col-3 " (click)="onclick($event,7)">7</button>
+    <button class="calculadora col-3 " (click)="onclick($event,8)">8</button>
+    <button class="calculadora col-3 " (click)="onclick($event,9)">9</button>
+    <button class="calculadoraN col-3 " (click)="onclick2($event,3)">+</button>
+  </div>
+  <div class="row">
+    <button class="calculadora col-3 " (click)="onclick($event,0)">0</button>
+    <button class="calculadoraN col-3 " (click)="onclick2($event,4)">-</button>
+    <button class="calculadoraN col-3 " (click)="onclick2($event,5)">.</button>
+    <button class="calculadoraN col-3 " (click)="onclick2($event,6)"><=</button>
+  </div>
+  <div class="row">
+    <button class="calculadoraN col-6 " (click)="onclick2($event,7)">=</button>
+    <button class="calculadoraN  col-6 " (click)="onclick2($event,8)">Clear</button>
+  </div>
+</div>
+
+
+

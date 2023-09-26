@@ -1,0 +1,64 @@
+h3{
+  text-align: center;
+  font-weight: bold;
+  color: #9000cc;
+}
+
+
+.container{
+  background-color: rgb(33, 0, 47);
+  background-image: url("https://wallpaperaccess.com/full/3125096.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  border-radius: 15px;
+}
+
+.calculadoraN{
+  background: #5e007c;
+  border: black solid 1px;
+  color: white;
+  font-size: xx-large;
+  text-shadow:
+    0 0 4px #fff,
+    0 0 11px #fff,
+    0 0 19px #fff,
+    0 0 40px #0fa,
+    0 0 80px #0fa;
+}
+.calculadoraA{
+  background: rgba(130, 2, 175, 0.94);
+  border: black solid 1px;
+  color: #ffffff;
+  font-size: xx-large;
+  margin: 22px;
+
+}
+.calculadora{
+  background: #9000cc;
+  border: black solid 1px;
+  color: white;
+  font-size: x-large;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+
+/*
+.square:before{
+  content: "";
+  display: block;
+  padding-top: 50%;
+}
+.square:after{
+  content: "";
+  display: block;
+  padding-bottom: 50%;
+}
+*/

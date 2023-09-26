@@ -1,0 +1,11 @@
+<h3>COMPONENT: ACTIVITAT 1</h3>
+<div>
+  <p>El tamany actual es: {{tamany}}px</p>
+
+  <button type="button" (click)="dec()" title="smaller">-</button>
+  <button type="button" (click)="inc()" title="bigger">+</button><br>
+  <label for="tamany">Tamany Imatge (px):</label>
+  <input type="number" id="tamany" #tamanyy name="tamany" [value]="tamany" (keypress)="changeSF(+tamanyy.value)"><br>
+  <img alt="Lamp" [width]="tamany" [height]="tamany" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0f1d6f99-cf44-4f15-92ad-2dd26e459612/d3jv3ib-5c8111cd-bd67-4003-855a-c75f73637b58.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBmMWQ2Zjk5LWNmNDQtNGYxNS05MmFkLTJkZDI2ZTQ1OTYxMlwvZDNqdjNpYi01YzgxMTFjZC1iZDY3LTQwMDMtODU1YS1jNzVmNzM2MzdiNTguanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.E7rnny-ViBBkZzJqPY2gy3c59jkRUTIKMq6m9YhbDSY">
+</div>
+
